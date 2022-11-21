@@ -1,6 +1,6 @@
 # Vefforritun 1, 2022, hópverkefni 2
 
-Verkefnið felst í að útbúa vef sem birtir viðburði (eða, endurgera dagskrárvef Menningarnætur).
+Verkefnið felst í að útbúa vef sem birtir viðburði (eða, endurgera dagskrárvef Menningarnætur sjá þó nánar í yfirferð um útlit).
 
 Vefur skal vera prófaður og virka í nýjustu útgáfum af Firefox og Chrome.
 
@@ -42,7 +42,9 @@ Ef viðburðurinn er ekki til (id er ekki í `events.json`) eru upplýsingar um 
 
 ### Kortavirkni
 
-Alla viðburði sem hafa `location` ætti að birta á sér kortasíðu. Nota skal pakka til þess, t.d. [Leaflet](https://leafletjs.com/) eða [Mapbox](https://www.mapbox.com/).
+*Bónus virkni*
+
+Ef útfært ætti að vera til sér kortasíða. Á þessari síðu skal birta alla viðburði sem hafa `location`. Nota skal pakka til þess, t.d. [Leaflet](https://leafletjs.com/) eða [Mapbox](https://www.mapbox.com/).
 
 Þegar smellt er á hvern viðburð skal annaðhvort birta titil og lýsingu í „popup“ eða senda á síðu viðburðar.
 
@@ -50,7 +52,7 @@ Alla viðburði sem hafa `location` ætti að birta á sér kortasíðu. Nota sk
 
 Hægt skal vera að fara á milli yfirlitssíðu og kortasíðu. Frá stökum viðburð síðu skal hægt að fara aftur á yfirlitssíðu.
 
-Útlit er ekki aðalatriði verkefnis, en það skal þó vera nógu gott til að vera nothæft. Nota skal Sass og skipta því upp í skrár með stillingum/breytum.
+**Ekki** er krafa um að endurgera dagskrárvef Menningarnætur að öllu leiti, það má, en það er ekki krafa. **Útlit er ekki aðalatriði verkefnis**, en það skal þó vera nógu gott til að vera nothæft. Nota skal Sass og skipta því upp í skrár með stillingum/breytum.
 
 Vefur skal vera skalanlegur og virka frá `400px` upp í a.m.k. `1200px`.
 
@@ -88,10 +90,10 @@ Setja skal upp eslint með airbnb staðli.
 
 * 10% - Git og GitHub PR eftir forskrift
 * 15% — `README` eftir forskrift, tæki og tól uppsett, vefur keyrir á Netilfy
-* 20% — Útlit og skalanleiki
-* 25% — Gögn sótt og birt á yfirlitssíðu með _filter_, _paging_ eða _sorting_
-* 15% – Birting á stökum viðburð
-* 15% — Kortavirkni
+* 25% — Útlit og skalanleiki
+* 30% — Gögn sótt og birt á yfirlitssíðu með _filter_, _paging_ eða _sorting_
+* 20% – Birting á stökum viðburð
+* *Bónus* 10% — Kortavirkni
 
 ## Sett fyrir
 
@@ -119,4 +121,4 @@ Sett verða fyrir tíu minni verkefni þar sem átta bestu gilda 5% hvert, samta
 
 Sett verða fyrir tvö hópverkefni þar sem hvort um sig gildir 10%, samtals 20% af lokaeinkunn.
 
-> Útgáfa 0.1
+> Útgáfa 0.2, nánar um útlit, kortavirkni er bónus
